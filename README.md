@@ -1,3 +1,5 @@
+the scripts expect a "monero-site/downloads/hashest.txt" file to exist relative to itself    
+
 ## validate-sources
 I 'wget' the website source files, but in production these are copied from the previous step "mv ../"
 ## test1.sh
@@ -10,7 +12,7 @@ ALOT of diffs
 ## test2.sh 
 
 the simplest test, after downloading / extracting all files , i modify wallet2.cpp before the diff comparisons.    
-Output:
+Output: [in production](https://github.com/plowsof/monero-site/runs/6637203924?check_suite_focus=true#step:8:186)
 ```
 --> Unpacking all...
 
